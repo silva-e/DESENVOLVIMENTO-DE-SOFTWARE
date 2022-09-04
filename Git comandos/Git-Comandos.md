@@ -111,3 +111,6 @@ Se você já criou seu repositório no servidor remoto você pode adicionar ele 
 ```
 git remote add origin urldoseuprojeto
 ``` 
+
+#### Removendo respositório remoto
+
