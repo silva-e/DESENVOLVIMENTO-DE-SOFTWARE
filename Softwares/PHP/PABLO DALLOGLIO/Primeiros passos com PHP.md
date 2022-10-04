@@ -24,13 +24,11 @@ O php.ini é o arquivo de configurações global de todo comportamento da lingua
 
 Para conferir como esta todas as configurações execute a funcão phpinfo(); dentro de um arquivo ponto php.
 
-` ` <?php
+` <?php
 
-phpinfo();
+phpinfo(); 
 
-` `
-
- 
+`   
 
 ### Níveis de erros do php
 
