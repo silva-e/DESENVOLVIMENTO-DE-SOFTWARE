@@ -39,5 +39,3 @@ Para conferir como esta todas as configurações execute a funcão phpinfo(); de
 3. Fatal error: O código é interrompido. Necessita de correção
 
 4. Parse error: Código de erro de codificação. Geralmente sintaxe errada. O verificador de sintaxe do php não conseguiu analisar o código como um código válido
-
-# 
