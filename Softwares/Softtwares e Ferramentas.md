@@ -2,8 +2,6 @@
 
 Boa parte das ferramentas são com base em sistema linux. Parte delas você poderá encontrar para diversos sistemas operacionais, outras apenas para linux.
 
-
-
 #### Softwares para banco de dados
 
 - Dbeaver possuí versão free community e versão PRO.  Link para download [DBeaver Community](https://dbeaver.io/download/)
@@ -18,8 +16,6 @@ Boa parte das ferramentas são com base em sistema linux. Parte delas você pode
 
 - Sqlectron [Sqlectron](https://sqlectron.github.io/)
 
-
-
 #### Editor markdown
 
 - MarkText ([GitHub - marktext/marktext: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext))
@@ -28,4 +24,10 @@ Boa parte das ferramentas são com base em sistema linux. Parte delas você pode
 
 - ZETTLR: (https://www.zettlr.com/)
 
-- 
+#### Terminais
+
+- Tilix: Divide o terminal em várias janelas horizontais e verticais o que da mais agilidade no dia a dia. ([Tilix&colon; A tiling terminal emulator](https://gnunn1.github.io/tilix-web/))
+
+- Black Box Terminal. 
+
+- Hyper Terminal.
