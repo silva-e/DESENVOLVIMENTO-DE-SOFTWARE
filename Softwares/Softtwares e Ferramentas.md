@@ -31,3 +31,7 @@ Boa parte das ferramentas são com base em sistema linux. Parte delas você pode
 - Black Box Terminal. 
 
 - Hyper Terminal.
+
+#### Ferramentas para JSON
+- No VSCODE ou no navegador utilizar o JSON Crack ([JSON Crack](https://jsoncrack.com/editor));
+- Web ([Best JSON Formatter and JSON Validator](https://jsonformatter.org/))
