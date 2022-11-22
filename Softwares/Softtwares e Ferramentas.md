@@ -34,4 +34,5 @@ Boa parte das ferramentas são com base em sistema linux. Parte delas você pode
 
 #### Ferramentas para JSON
 - No VSCODE ou no navegador utilizar o JSON Crack ([JSON Crack](https://jsoncrack.com/editor));
-- Web ([Best JSON Formatter and JSON Validator](https://jsonformatter.org/))
+- Web ([Best JSON Formatter and JSON Validator](https://jsonformatter.org/));
+- Plugin navegador: JSON Viewer;
