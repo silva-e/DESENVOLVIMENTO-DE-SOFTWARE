@@ -87,7 +87,37 @@ Após navegar pelos commits você pode voltar para o último commit que aponta p
 ```
 git checkout nomeDaBranch
 ```
-
+#### Git stash
+  É um comando muito importante na gestão do código. Ele salva as alterações sem um commit (tanto as preparadas quanto as não preparadas).
+  Muitas vezes você precisa parar o trabalho da feature ou do fix que vamos chamar de (A) para alterar para outra branch ou até fazer alguma alteração, vamos chamar de (B), na branch atual porém não deseja commitar (A por que ela não está finalizada) e dseja commitar somente (A). Nestes casos o git stash é a melhor opção.
+  ***O git stash só funciona localmente. Não é aplicado no origin remoto.***
+  ***Sempre importante informar a mensagem para o stash para facilitar o entendimento pois podem haver mais de um stash***
+  Vamos a alguns exemplos:
+  
+  ```
+    git stash
+    //Suas alterações foram arquivadas
+  ```
+  ```
+    git stash save 'Minha mensagem para identificar meu stash'
+    //Suas alterações foram arquivadas com mensagem personalizada
+  ```
+  Listando os stashs
+  
+  ```
+    git stash list
+  //Listando suas stashs
+  stash@{0}: WIP on master: 049d078 added the index file
+  stash@{1}: WIP on master: c264051... Revert "added file_size"
+  stash@{2}: WIP on master: 21d80a5... added number to log
+  ```
+  
+  Para retornar um código que está em stash você utilizará o seguinte comando:
+  
+  ```
+    git stash apply stash@{2}
+  ```
+  
  Fazendo isto você volta para o último commit que aponta para HEAD e pode continuar trabalhando.
 
 ### Git reset. Ideal para voltar o projeto em determinada linha do tempo dispensando ou não alterações a partir de um determinado commit ou corrigir um mérge feito para uma branch errada.
